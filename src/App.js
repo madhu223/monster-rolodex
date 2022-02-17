@@ -29,7 +29,7 @@ class App extends Component {
           <input
             className='search'
             type='search'
-            placeholder='search monsters'
+            placeholder='search for monsters'
             onChange={(e) => this.setState({ searchField: e.target.value })}
           />
           <img src='https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-search-ui-dreamstale-lineal-dreamstale.png' />
